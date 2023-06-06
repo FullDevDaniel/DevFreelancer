@@ -1,0 +1,123 @@
+/* Reset CSS para limpar estilos padrão do navegador */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Estilo do header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  header nav {
+    margin-top: 10px;
+  }
+  
+  /* Estilo do main */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  ul {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff5f5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3f3f;
+  }
+  
+  /* Estilo do footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Estilo adicional para estilizar o botão de contato */
+  .contact-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #333;
+  }
+  
+  /* Estilos específicos para melhorar a disposição dos itens */
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .container > * {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .container > * {
+      margin-bottom: 0;
+    }
+  }
